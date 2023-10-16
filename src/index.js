@@ -11,7 +11,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <HashRouter basename="/">
+    <HashRouter>
       <I18nextProvider i18={i18n}>
         <App />
       </I18nextProvider>
